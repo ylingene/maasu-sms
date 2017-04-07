@@ -17,9 +17,9 @@ def sms():
 		message = "Saturday's banquet will be held at The Diamond Center of Novi (46100 Grand River Ave, Novi, MI 48374). Food and entertainment will be provided. Buses for banquet (if requested) will be leaving at 6:30PM. Reply 'bus' for more bus information.";
 	elif message_body == "friday":
 		message = "We have two events for you on Friday Night: Spring Into MAASU and GenAPA. Reply 'spring' or 'genapa' for more info.";
-	elif message_body == "east":
+	elif message_body == "easthall":
 		message = "East Hall is where our Friday night entertainment, Spring Into MAASU, is located. Address: 530 Church St, Ann Arbor, MI 48109";
-	elif message_body == "mason":
+	elif message_body == "masonhall":
 		message = "Mason Hall will be where all workshops and small group sessions are located. Address: 419 S State St Mason Hall, Ann Arbor, MI 48109";
 	elif message_body == "rackham":
 		message = "Rackham Auditorium will house our opening ceremony as well as Saturday morning registration. Address: 915 E Washington St, Ann Arbor, MI 48109";
@@ -28,8 +28,8 @@ def sms():
 					\n'parking': parking information
 					\n'friday': friday night information
 					\n'banquet': banquet information
-					\n'east': address for East Hall (Friday night entertainment and Friday registration)
-					\n'mason': address for Mason Hall (all workshops)
+					\n'easthall': address for East Hall (Friday night entertainment and Friday registration)
+					\n'masonhall': address for Mason Hall (all workshops)
 					\n'rackham': address for Rackham Auditorium (Opening ceremony and Saturday registration)
 					\n'bus': bus information
 		"""
@@ -41,8 +41,8 @@ def sms():
 		message = """Here are the commands I accept: 
 					\n'friday': friday night information
 					\n'banquet': banquet information
-					\n'east hall': address for East Hall (Friday night entertainment and Friday registration)
-					\n'mason hall': address for Mason Hall (all workshops)
+					\n'easthall': address for East Hall (Friday night entertainment and Friday registration)
+					\n'masonhall': address for Mason Hall (all workshops)
 					\n'rackham': address for Rackham Auditorium (Opening ceremony and Saturday registration)
 					\n'bus': bus information
 		"""
