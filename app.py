@@ -26,7 +26,9 @@ def sms():
 	elif message_body == "maasu":
 		message = """Here are the commands I accept: 
 					\n'parking': parking information
-					\n'friday': friday night information
+					\n'friday': Friday night information
+					\n'spring': Spring Into Maasu Friday night event
+					\n'genapa': GenAPA Friday night show information 
 					\n'banquet': banquet information
 					\n'easthall': address for East Hall (Friday night entertainment and Friday registration)
 					\n'masonhall': address for Mason Hall (all workshops)
@@ -37,9 +39,16 @@ def sms():
 		message = "Buses will begin boarding at 6PM and will depart at 6:30PM. Pickup location is on the corner of N University Ave. and S State St.";
 	elif message_body == "parking":
 		message = "Parking will be $10 for the day at the Thayer Parking Structure. Address: 216 South Thayer Street, Ann Arbor, MI 48104";
+	elif message_body = "genapa":
+		"The GenAPA show is from 7-9pm Friday night. You can pick up reserved tickets or purchase them at the door outside of Mendelssohn Theater at the Michigan League (Address: 911 N University Ave, Ann Arbor, MI 48104) starting at 6:30pm. We suggest you get there by 6:30";
+	elif message_body = "spring":
+		"Spring Into Maasu goes from 8:30-10:00pm at East Hall Psych Atrium (Address: 530 Church St, Ann Arbor, MI 48109). There will be free food and activites after registration. Ask your Small Group Leader for more information.";
 	else:
 		message = """Here are the commands I accept: 
-					\n'friday': friday night information
+					\n'parking': parking information
+					\n'friday': Friday night information
+					\n'spring': Spring Into Maasu Friday night event
+					\n'genapa': GenAPA Friday night show information 
 					\n'banquet': banquet information
 					\n'easthall': address for East Hall (Friday night entertainment and Friday registration)
 					\n'masonhall': address for Mason Hall (all workshops)
