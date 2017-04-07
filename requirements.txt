@@ -10,6 +10,7 @@ packaging==16.8
 pyparsing==2.2.0
 PySocks==1.6.7
 pytz==2017.2
+setuptools==34.3.3
 six==1.10.0
 twilio==5.7.0
 virtualenv==15.1.0
