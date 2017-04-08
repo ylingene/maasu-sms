@@ -34,6 +34,6 @@ for idx, filename in enumerate(onlyfiles):
 		content = f.readlines()
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
-	msg="This is a test"
+	msg="Banquet doors open at 6:30pm. Please have your banquet ticket present for entry and place your ticket at your table setting (sticker side up). Reply BANQUET for more info. Glow up!"
 	for to in content:
 		sendMessage(to, _from, msg)

@@ -36,7 +36,7 @@ def sms():
 					\n'bus': bus information
 		"""
 	elif message_body == "bus":
-		message = "Buses will begin boarding at 6PM and will depart at 6:30PM. Pickup location is on the corner of N University Ave. and S State St.";
+		message = "Buses will begin boarding at 6PM and will depart at 6:30PM. Pickup location is 911 N University Ave.";
 	elif message_body == "parking":
 		message = "Parking will be $10 for the day at the Thayer Parking Structure. Address: 216 South Thayer Street, Ann Arbor, MI 48104";
 	elif message_body == "genapa":

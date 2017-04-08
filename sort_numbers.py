@@ -2,7 +2,7 @@ import string
 
 def sort_numbers():
 	num_files = 10
-	with open('test') as f:
+	with open('masterlist') as f:
 	    content = f.readlines()
 	# you may also want to remove whitespace characters like `\n` at the end of each line
 	content = [x.strip() for x in content]
@@ -21,6 +21,5 @@ def sort_numbers():
 		f.write(number+"\n")
 		f.close()
 		counter += 1
-
 		
 sort_numbers()
