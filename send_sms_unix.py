@@ -38,6 +38,6 @@ for idx, filename in enumerate(onlyfiles):
 		content = f.readlines()
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
-	# msg="Please disregard this text. This is a test only for board"
-	# for to in content:
-	# 	sendMessage(to, _from, msg)
+	msg="Please disregard this text. This is a test only for board"
+	for to in content:
+		sendMessage(to, _from, msg)

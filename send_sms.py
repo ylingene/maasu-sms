@@ -35,6 +35,5 @@ for idx, filename in enumerate(onlyfiles):
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
 	msg="This is a test"
-	msg = msg.encode('utf-8')
 	for to in content:
 		sendMessage(to, _from, msg)
