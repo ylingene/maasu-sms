@@ -32,11 +32,12 @@ def sendMessage(_to, _from, msg):
 		print(e)
 
 onlyfiles = [f for f in listdir('numbers/') if isfile(join('numbers/', f))]
+print(len(FROM_NUMBERS))
 for idx, filename in enumerate(onlyfiles):
 	with open('numbers/'+filename) as f:
 		content = f.readlines()
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
-	msg="This is another test"
-	for to in content:
-		sendMessage(to, _from, msg)
+	# msg="Please disregard this text. This is a test only for board"
+	# for to in content:
+	# 	sendMessage(to, _from, msg)
