@@ -34,6 +34,6 @@ for idx, filename in enumerate(onlyfiles):
 		content = f.readlines()
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
-	msg="Hi. Welcome to MAASU Spring Conference 2017 at the University of Michigan! This is Calista, your personal assistant for the weekend. :) Please reply to this message so Kelvin knows this works.";
+	msg="M-Reps please report to Auditorium D (ground floor) for M-Rep meetings and bid proposals."
 	for to in content:
 		sendMessage(to, _from, msg)
