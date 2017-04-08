@@ -34,6 +34,6 @@ for idx, filename in enumerate(onlyfiles):
 		content = f.readlines()
 	content = [x.strip() for x in content]
 	_from = FROM_NUMBERS[idx]
-	msg="M-Reps please report to Auditorium D (ground floor) for M-Rep meetings and bid proposals."
+	msg="Lunch ends in 10 minutes! Please come back for your next workshop!"
 	for to in content:
 		sendMessage(to, _from, msg)
